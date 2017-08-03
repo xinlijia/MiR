@@ -119,11 +119,11 @@ class Players extends React.Component {
 	constructor(props){
 		super(props);
 		this.state={
-			playerList:["p1"],
-			playerD: {"p1":0},
-			playerZ: {"p1":0},
-			playerJ: {"p1":0},
-			playerL: {"p1":0}
+			playerList:["p1","p2"],
+			playerD: {"p1":0, "p2":0},
+			playerZ: {"p1":0, "p2":0},
+			playerJ: {"p1":0, "p2":0},
+			playerL: {"p1":0, "p2":0}
 		}
 	}
 
